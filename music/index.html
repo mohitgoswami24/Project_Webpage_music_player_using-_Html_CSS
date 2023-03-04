@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+       
+        <div class="menu_side">
+            <h1>SoundCloud</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i>playlist</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>last listening</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>recommended</h4>
+            </div>
+            <div class="menu_song">
+                <li class="songItem">
+                    <span>01</span>
+                    <img src="img/1.jpg" alt="">
+                    <h5>
+                        Monalisa
+                        <div class="subtitle">lil Wayne ft Kendrick</div>    
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                </li>
+                <li class="songItem">
+                    <span>02</span>
+                    <img src="img/2.jpg" alt="">
+                    <h5>
+                        Kala Bazzar
+                        <div class="subtitle">Karma</div>    
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                </li>
+                <li class="songItem">
+                    <span>03</span>
+                    <img src="img/3.jpg" alt="">
+                    <h5>
+                        N95
+                        <div class="subtitle">Kendrick Lamar</div>    
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                </li>
+                <li class="songItem">
+                    <span>04</span>
+                    <img src="img/j_cole.jpg" alt="">
+                    <h5>
+                        Black Friday
+                        <div class="subtitle">J cole ft Kendrick Lamar</div>    
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                </li>
+                <li class="songItem">
+                    <span>05</span>
+                    <img src="img/5.jpg" alt="">
+                    <h5>
+                        Regreat
+                        <div class="subtitle">Mc Stan</div>    
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                </li>
+                <li class="songItem">
+                    <span>06</span>
+                    <img src="img/6.jpg" alt="">
+                    <h5>
+                        Work
+                        <div class="subtitle">Rihanna</div>    
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                </li>
+            </div>
+        </div>
+        <div class="song_side">
+            <nav>
+                <ul>
+                    <li>Discover <span></span></li>
+                    <li>MY LIBRARY</li>
+                    <li>RADIO</li>
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Search Music...">
+                </div>
+                
+            </nav>
+            <div class="content">
+                <h1>Monalisa</h1>
+                <p>
+                    I got a story to tell, you know that I cherish thee<br/>
+                    Hope it ain't too many feelings involved
+
+                </p>
+                <div class="buttons">
+                    <button>PLAY</button>
+                    <button>FOLLOW</button>
+                </div>
+            </div>
+            <div class="popular_song">
+                <div class="h4">
+                    <h4>Popular Song</h4>
+                    <div class="btn_s">
+                        <i id="left_scroll" class="bi bi-arrow-left-short"></i>
+                        <i id="right_scroll" class="bi bi-arrow-right-short"></i>
+                    </div>
+                </div>
+                <div class="pop_song">
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/j_cole.jpg" alt="cover">
+                            <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+                        </div>
+                        <h5>Black Friday <br><div class="subtitle">Kendrick & Cole</div></h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/2.jpg" alt="cover">
+                            <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
+                           
+                        </div>
+                        <h5>Kala Bazaar <br><div class="subtitle">Karma</div></h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/bellaa.jpg" alt="cover">
+                            <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                        </div>
+                        <h5>I'm a Kid <br><div class="subtitle">Bella</div></h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/3.jpg" alt="cover">
+                            <i class="bi playListPlay bi-play-circle-fill" id="10"></i>
+                        </div>
+                        <h5>N95 <br><div class="subtitle">Kendrick Lamar</div></h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/6.jpg" alt="cover">
+                            <i class="bi playListPlay bi-play-circle-fill" id="11"></i>
+                        </div>
+                        <h5>Work <br><div class="subtitle">Rihanna</div></h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/5.jpg" alt="cover">
+                            <i class="bi playListPlay bi-play-circle-fill" id="12"></i>
+                        </div>
+                        <h5>Regreat<br><div class="subtitle">MC Stan</div></h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/1.jpg" alt="cover">
+                            <i class="bi playListPlay bi-play-circle-fill" id="13"></i>
+                        </div>
+                        <h5>Monalisa <br><div class="subtitle">Lil Wayne</div></h5>
+                    </li>
+                    
+                </div>
+            </div>
+            <div class="popular_artists">
+                <div class="h4">
+                    <h4>Popular Artists</h4>
+                    <div class="btn_s">
+                        <i id="left_scrolls" class="bi bi-arrow-left-short"></i>
+                        <i id="right_scrolls" class="bi bi-arrow-right-short"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <li>
+                        <img src="img/j_cole.jpg"  title="J Cole">
+                        
+                    </li>
+                    <li>
+                        <img src="img/3.jpg"  title="Kendrick Lamar">
+                    </li>
+                    <li>
+                        <img src="img/1.jpg"  title="Lil Wayne">
+                    </li>
+                    <li>
+                        <img src="img/riri_pic.jpg"  title="Rihanna">
+                    </li>
+                    <li>
+                        <img src="img/2.jpg"  title="Karma">
+                    </li>
+                    <li>
+                        <img src="img/bellaa.jpg"  title="Bella">
+                    </li>
+                    <li>
+                        <img src="img/Em.jpg"  title="Eminem">
+                    </li>
+                    <li>
+                        <img src="img/nip.jpg"  title="Nipsey">
+                    </li>
+                    <li>
+                        <img src="img/drake.jpg"  title="Drake">
+                    </li>
+                    <li>
+                        <img src="img/pop.jpg"  title="Pop Smoke">
+                    </li>
+                    <li>
+                        <img src="img/5.jpg"  title="MC Stan"> 
+                    </li>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="master_play">
+            <div class="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="img/1.jpg" alt="">
+            <h5>
+              Monalisa <br>
+               <div class="subtitle">lil wayne ft Kendrick Lamar</div>
+            </h5>
+            <div class="icon">
+                <i class="bi bi-skip-start-fill"></i>
+                <i class="bi bi-play-fill"></i>
+                <i class="bi bi-skip-end-fill"></i>
+
+            </div>
+            <span id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek" min="0" value="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                 <div class="dot"></div>
+            </div>
+            <span id="currentEnd">3:55</span>
+
+            <div class="vol">
+                <i class="bi bi-volume-down-fill"></i>
+                <input type="range" id="vol" min="0" value="30" max="100">
+                <div class="vol_bar" ></div>
+                 <div class="dot" id="vol_dot"></div>
+            </div>
+        </div>
+    </header>
+    <script src="app.js"></script>
+</body>
+</html>
